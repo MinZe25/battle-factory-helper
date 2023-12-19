@@ -1,0 +1,20 @@
+<mat-card *ngIf="{name: (name$ | async), filteredOptions: filteredOptions | async} as pipes">
+  <mat-card-header>
+    <mat-card-subtitle>{{ title }}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <div>
+      <app-pokemon-name-selector (specieChanged)="specieChanged($event)"></app-pokemon-name-selector>
+    </div>
+    <div>
+      <app-pokemon-item-selector (itemChanged)="itemChanged($event)"
+                                 [pokemon]="pokemon.specie"></app-pokemon-item-selector>
+    </div>
+    @for (i of [1, 2, 3, 4];track i) {
+      <div>
+        <app-pokemon-move-selector (moveChanged)="moveChanged($event, i)" label="{{'Move '+i}}"
+                                   [pokemon]="pokemon.specie"></app-pokemon-move-selector>
+      </div>
+    }
+  </mat-card-content>
+</mat-card>

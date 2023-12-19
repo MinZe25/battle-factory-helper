@@ -1,0 +1,22 @@
+<mat-form-field appearance="outline" *ngIf="{names: $name | async} as pipes">
+  <mat-label class="">Item</mat-label>
+  <input #input type="text"
+         placeholder="Pick one"
+         aria-label="Number"
+         matInput
+         [formControl]="nameControl"
+         (input)="filter()"
+         (focus)="filter()"
+         [matAutocomplete]="autoName">
+  @if (nameControl.value) {
+    <button matSuffix mat-icon-button aria-label="Clear"
+            (click)="nameControl.setValue('')">
+      <mat-icon>close</mat-icon>
+    </button>
+  }
+  <mat-autocomplete [requireSelection]="true" #autoName="matAutocomplete">
+    @for (option of items;track option) {
+      <mat-option [value]="option">{{ option }}</mat-option>
+    }
+  </mat-autocomplete>
+</mat-form-field>

@@ -1,4 +1,5 @@
 import {Pokemon, PokemonSet} from "../Models/Pokemon";
+import {IPokemonService} from "../services/IPokemonService";
 
 export class BattleFactoryGen3Algorithm implements Algorithm {
   constructor(private pokemonService: IPokemonService) {
@@ -6,7 +7,7 @@ export class BattleFactoryGen3Algorithm implements Algorithm {
 
   getSets(party: PokemonSet, enemy: PokemonSet, level: FrontierLevel, round: number, type: PokemonType, battleStyle: BattleStyle): PokemonSet[] {
     const partySpecies = party.pokemons.map(x => x.specie);
-    const possiblePokemon = this.pokemonService.getPokemonFromGroup(this.getGroup(level, round))
+    const possiblePokemon = this.pokemonService.getPokemonFromGroup(level, round)
       .filter(p =>
         !partySpecies.includes(p.specie) &&
         !this.isAForbiddenPokemon(p, level, round) &&
@@ -14,13 +15,15 @@ export class BattleFactoryGen3Algorithm implements Algorithm {
         this.isValidPokemonForEnemyParty(p, enemy)
       )
     const result: PokemonSet[] = [];
+    console.log("calculating sets...");
     this.generatePokemonSets(possiblePokemon, enemy, type, battleStyle, [], result);
+    console.log("Calculated sets, total length: ", result.length);
     return result;
   }
 
-  private isValidPokemonForEnemyParty(pokemon: Pokemon, enemy: PokemonSet): boolean {
+  private isValidPokemonForEnemyParty(pokemon: Pokemon, enemy: PokemonSet, forceFind = false): boolean {
     const found = enemy.pokemons.find(x => x.specie === pokemon.specie);
-    if (!found) return true;
+    if (!found) return !forceFind;
     if (!!found.item && found.item !== pokemon.item) return false;
     if (!!found.ability && found.ability !== pokemon.ability) return false;
     for (let move of found.moves.filter(x => !!x && x.length > 3)) {
@@ -30,6 +33,7 @@ export class BattleFactoryGen3Algorithm implements Algorithm {
   }
 
   private isAForbiddenPokemon(pokemon: Pokemon, level: FrontierLevel, round: number): boolean {
+    if (pokemon.specie == "Unown") return true;
     switch (level) {
       case FrontierLevel.Level50:
         if (["Dragonite", "Tyranitar"].includes(pokemon.specie)) return true;
@@ -64,15 +68,6 @@ export class BattleFactoryGen3Algorithm implements Algorithm {
     }
   }
 
-  private getGroup(level: FrontierLevel, round: number): number {
-    switch (level) {
-      case FrontierLevel.Level50:
-        return round <= 1 ? 1 : round <= 3 ? 2 : 3;
-      case FrontierLevel.OpenLevel:
-        return 3;
-    }
-  }
-
   private canFilterVariant(level: FrontierLevel, round: number): boolean {
     switch (level) {
       case FrontierLevel.Level50:
@@ -94,9 +89,11 @@ export class BattleFactoryGen3Algorithm implements Algorithm {
       }
       return;
     }
-
+    const enemySpecies = enemy.pokemons.map(x => x.specie);
     for (const pokemon of possiblePokemon) {
       if (!currentSet.map(x => x.specie).includes(pokemon.specie) && this.isValidPokemonForEnemyParty(pokemon, enemy)) {
+        if (currentSet.length < enemy.pokemons.length && pokemon.specie !== enemySpecies[currentSet.length])
+          continue;
         currentSet.push(pokemon);
         this.generatePokemonSets(possiblePokemon, enemy, type, battleStyle, currentSet, result);
         currentSet.pop();
@@ -147,19 +144,19 @@ export class BattleFactoryGen3Algorithm implements Algorithm {
       const threeCount = typeCountCount(3);
       const twoCount = typeCountCount(2);
       if (threeCount > 0) {
-        return type == "None" ? threeCount != 1 : threeCount == 1 && typeCount[type] == 3;
+        return type == "none" ? threeCount != 1 : threeCount == 1 && typeCount[type] == 3;
       }
       if (twoCount == 1) {
-        return type == "None" ? false : typeCount[type] == 2;
+        return type == "none" ? false : typeCount[type] == 2;
       }
-      return type == "None";
+      return type == "none";
     }
 
-    if (!typeCount[type]) return false;
-    checkTypeIsCorrect();
+    if (type != "none" && !typeCount[type]) return false;
+    if (!checkTypeIsCorrect()) return false;
     //apply the battle style algorithm
     const categoryCount = [
-      0, 0, 0, 0, 0, 0, 0
+      0, 0, 0, 0, 0, 0, 0, 0
     ];
     for (let pokemon of pokemonSet) {
       for (let move of pokemon.moves) {
@@ -169,11 +166,12 @@ export class BattleFactoryGen3Algorithm implements Algorithm {
       }
     }
     return this.getBattleStyleSelected(categoryCount) == battleStyle;
+    // return true;
   }
 
   private getBattleStyleSelected(categoryCount: number[]): number {
     const categoryThreshold = [
-      3, 3, 3, 2, 2, 2, 2
+      99, 3, 3, 3, 2, 2, 2, 2
     ];
     let count = 0;
     let max = 0;
@@ -181,10 +179,10 @@ export class BattleFactoryGen3Algorithm implements Algorithm {
       if (categoryThreshold[i] <= categoryCount[i]) {
         count++;
         if (count >= 3) return 8;
-        max = Math.max(max, i);
+        max = Math.max(max, i + 1);
       }
     }
-    return max;
+    return count == 0 ? 8 : max;
   }
 
   public getCategoryMoveIndex(move: string): number {
@@ -377,29 +375,27 @@ export class BattleFactoryGen3Algorithm implements Algorithm {
   ];
 }
 
-export interface IPokemonService {
-  getPokemonFromGroup(group: number): Pokemon[];
-}
-
-export type PokemonType =
-  "None" |
-  "Normal" |
-  "Fighting" |
-  "Flying" |
-  "Poison" |
-  "Ground" |
-  "Rock" |
-  "Bug" |
-  "Ghost" |
-  "Steel" |
-  "Fire" |
-  "Water" |
-  "Grass" |
-  "Electric" |
-  "Psychic" |
-  "Ice" |
-  "Dragon" |
-  "Dark"
+export const PokemonTypes = [
+  "none",
+  "normal",
+  "fighting",
+  "flying",
+  "poison",
+  "ground",
+  "rock",
+  "bug",
+  "ghost",
+  "steel",
+  "fire",
+  "water",
+  "grass",
+  "electric",
+  "psychic",
+  "ice",
+  "dragon",
+  "dark"
+]
+export type PokemonType = typeof PokemonTypes[number];
 
 export enum BattleStyle {
   FreeSpirited,

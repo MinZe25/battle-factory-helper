@@ -1,1 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
+@use '@angular/material' as mat;
+//
+//html, body {
+//  height: 100%;
+//}
+
+body {
+  margin: 21px;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+@include mat.core();
+
+// Define a dark theme
+$dark-theme: mat.define-dark-theme((
+  color: (
+    primary: mat.define-palette(mat.$pink-palette),
+    accent: mat.define-palette(mat.$blue-grey-palette),
+  ),
+  // Only include `typography` and `density` in the default dark theme.
+  typography: mat.define-typography-config(),
+  density: -6,
+));
+
+// Define a light theme
+$light-theme: mat.define-light-theme((
+  color: (
+    primary: mat.define-palette(mat.$indigo-palette),
+    accent: mat.define-palette(mat.$pink-palette),
+  ),
+));
+@include mat.all-component-themes($dark-theme);
+
+@media (prefers-color-scheme: light) {
+  @include mat.all-component-themes($light-theme);
+}
+@import 'bootstrap/dist/css/bootstrap-grid.min.css';
+//.dense-0 {
+//  @include mat.all-component-densities(0);
+//}
+//
+//.dense-1 {
+//  @include mat.all-component-densities(-1);
+//}
+//
+//.dense-2 {
+//  @include mat.all-component-densities(-2);
+//}
+//
+//.dense-3 {
+//  @include mat.all-component-densities(-3);
+//}
+//
+//.dense-4 {
+//  @include mat.all-component-densities(-4);
+//}
+//
+//.dense-5 {
+//  @include mat.all-component-densities(-5);
+//}
+
