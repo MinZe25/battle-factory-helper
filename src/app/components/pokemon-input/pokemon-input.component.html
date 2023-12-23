@@ -4,7 +4,8 @@
   </mat-card-header>
   <mat-card-content>
     <div>
-      <app-pokemon-name-selector (specieChanged)="specieChanged($event)"></app-pokemon-name-selector>
+      <app-pokemon-name-selector [specie]="pokemon.specie"
+                                 (specieChanged)="specieChanged($event)"></app-pokemon-name-selector>
     </div>
     <div>
       <app-pokemon-item-selector (itemChanged)="itemChanged($event)"

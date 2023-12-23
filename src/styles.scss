@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @use '@angular/material' as mat;
+
 //
 //html, body {
 //  height: 100%;
@@ -11,12 +12,17 @@ body {
 }
 
 @include mat.core();
+$angular-primary: mat.define-palette(mat.$teal-palette, 500, 100, 900);
+$angular-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+
+$angular-warn: mat.define-palette(mat.$red-palette);
 
 // Define a dark theme
 $dark-theme: mat.define-dark-theme((
   color: (
-    primary: mat.define-palette(mat.$pink-palette),
-    accent: mat.define-palette(mat.$blue-grey-palette),
+    primary: $angular-primary,
+    accent: $angular-accent,
+    warn: $angular-warn,
   ),
   // Only include `typography` and `density` in the default dark theme.
   typography: mat.define-typography-config(),
@@ -26,15 +32,20 @@ $dark-theme: mat.define-dark-theme((
 // Define a light theme
 $light-theme: mat.define-light-theme((
   color: (
-    primary: mat.define-palette(mat.$indigo-palette),
-    accent: mat.define-palette(mat.$pink-palette),
+    primary: $angular-primary,
+    accent: $angular-accent,
+    warn: $angular-warn,
   ),
+  typography: mat.define-typography-config(),
+  density: -6
 ));
 @include mat.all-component-themes($dark-theme);
 
 @media (prefers-color-scheme: light) {
   @include mat.all-component-themes($light-theme);
 }
+@include mat.button-density(0);
+
 @import 'bootstrap/dist/css/bootstrap-grid.min.css';
 //.dense-0 {
 //  @include mat.all-component-densities(0);

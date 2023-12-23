@@ -1,101 +1,122 @@
 <!--<main class="main">-->
-
 <div id="container">
   <h2>Battle Page</h2>
   <div class="row">
-    <mat-card class="col">
-      <mat-card-content class="row">
-        <div class="row">
-          <button (click)="generateExcel()">generate</button>
-          <button (click)="generateExcel()">Next Battle</button>
-          <mat-card-subtitle>Party</mat-card-subtitle>
-          <app-pokemon-name-selector title="Party pokemon 1"></app-pokemon-name-selector>
-          <app-pokemon-name-selector title="Party pokemon 2"></app-pokemon-name-selector>
-          <app-pokemon-name-selector title="Party pokemon 3"></app-pokemon-name-selector>
-        </div>
-        <div class="row">
-          <mat-card-subtitle>Draft rejects / Last opponents</mat-card-subtitle>
-          <app-pokemon-name-selector title="Party pokemon 1"></app-pokemon-name-selector>
-          <app-pokemon-name-selector title="Party pokemon 2"></app-pokemon-name-selector>
-          <app-pokemon-name-selector title="Party pokemon 3"></app-pokemon-name-selector>
-        </div>
-        <div>
-          <mat-form-field>
-            <mat-label>Choose an option</mat-label>
-            <mat-select [(value)]="round">
-              @for (round of [1, 2, 3, 4, 5, 6, 7];track round) {
-                <mat-option [value]="round">{{ round }}</mat-option>
-              }
-              <mat-option [value]="8">8+</mat-option>
-            </mat-select>
-          </mat-form-field>
-        </div>
+    <div class="col">
+      <mat-card class="col">
+        <mat-card-content class="row">
+          <div class="row">
+            <button mat-raised-button color="primary" (click)="generateExcel()">GENERATE</button>
+            <button mat-raised-button color="primary" (click)="nextBattle()">NEXT BATTLE</button>
+            <mat-card-subtitle>Party</mat-card-subtitle>
+            <app-pokemon-name-selector (specieChanged)="party1 = $event"
+                                       title="Party pokemon 1"></app-pokemon-name-selector>
+            <app-pokemon-name-selector (specieChanged)="party2 = $event"
+                                       title="Party pokemon 2"></app-pokemon-name-selector>
+            <app-pokemon-name-selector (specieChanged)="party3 = $event"
+                                       title="Party pokemon 3"></app-pokemon-name-selector>
+          </div>
+          <div class="row">
+            <mat-card-subtitle>Draft rejects / Last opponents</mat-card-subtitle>
+            <app-pokemon-name-selector [specie]="previous1" (specieChanged)="previous1 = $event"
+                                       title="Party pokemon 1"></app-pokemon-name-selector>
+            <app-pokemon-name-selector [specie]="previous2" (specieChanged)="previous2 = $event"
+                                       title="Party pokemon 2"></app-pokemon-name-selector>
+            <app-pokemon-name-selector [specie]="previous3" (specieChanged)="previous3 = $event"
+                                       title="Party pokemon 3"></app-pokemon-name-selector>
+          </div>
+          <div>
+            <mat-form-field>
+              <mat-label>Choose an option</mat-label>
+              <mat-select [(value)]="round">
+                @for (round of [1, 2, 3, 4, 5, 6, 7];track round) {
+                  <mat-option [value]="round">{{ round }}</mat-option>
+                }
+                <mat-option [value]="8">8+</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
 
-        <div>
-          <mat-form-field>
-            <mat-label>Choose an option</mat-label>
-            <mat-select [(value)]="level">
-              <mat-option [value]="FrontierLevel.Level50">Level 50</mat-option>
-              <mat-option [value]="FrontierLevel.OpenLevel">Open Level</mat-option>
-            </mat-select>
-          </mat-form-field>
-        </div>
+          <div>
+            <mat-form-field>
+              <mat-label>Choose an option</mat-label>
+              <mat-select [(value)]="level">
+                <mat-option [value]="FrontierLevel.Level50">Level 50</mat-option>
+                <mat-option [value]="FrontierLevel.OpenLevel">Open Level</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
 
-        <div>
-          <mat-form-field>
-            <mat-label>Type</mat-label>
-            <mat-select [(value)]="type">
-              @for (type of PokemonTypes;track type) {
-                <mat-option [value]="type">{{ type }}</mat-option>
-              }
-            </mat-select>
-          </mat-form-field>
-        </div>
+          <div>
+            <mat-form-field>
+              <mat-label>Type</mat-label>
+              <mat-select [(value)]="type">
+                @for (type of PokemonTypes;track type) {
+                  <mat-option [value]="type">{{ type }}</mat-option>
+                }
+              </mat-select>
+            </mat-form-field>
+          </div>
 
-        <div>
-          <mat-form-field>
-            <mat-label>Type</mat-label>
-            <mat-select [(value)]="style">
-              <mat-option [value]="BattleStyle.FreeSpirited">Free Spirited</mat-option>
-              <mat-option [value]="BattleStyle.TotalPreparation">Total Preparation</mat-option>
-              <mat-option [value]="BattleStyle.SlowAndSteady">Slow And Steady</mat-option>
-              <mat-option [value]="BattleStyle.Endurance">Endurance</mat-option>
-              <mat-option [value]="BattleStyle.HighRiskHighReturn">High Risk High Return</mat-option>
-              <mat-option [value]="BattleStyle.Weakening">Weakening</mat-option>
-              <mat-option [value]="BattleStyle.ImpossibleToPredict">Impossible To Predict</mat-option>
-            </mat-select>
-          </mat-form-field>
-        </div>
-      </mat-card-content>
-    </mat-card>
-    <!-- Enemy Entries -->
-    <!--        <div id="enemies">-->
+          <div>
+            <mat-form-field>
+              <mat-label>Type</mat-label>
+              <mat-select [(value)]="style">
+                <mat-option [value]="BattleStyle.FreeSpirited">Free Spirited</mat-option>
+                <mat-option [value]="BattleStyle.TotalPreparation">Total Preparation</mat-option>
+                <mat-option [value]="BattleStyle.SlowAndSteady">Slow And Steady</mat-option>
+                <mat-option [value]="BattleStyle.Endurance">Endurance</mat-option>
+                <mat-option [value]="BattleStyle.HighRiskHighReturn">High Risk High Return</mat-option>
+                <mat-option [value]="BattleStyle.Weakening">Weakening</mat-option>
+                <mat-option [value]="BattleStyle.ImpossibleToPredict">Impossible To Predict</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </div>
     <div class="col">
       <app-pokemon-input title="Enemy pokemon 1" (changed)="onPokemonChanged(enemy1)"
                          [pokemon]="enemy1"></app-pokemon-input>
+      @for (perc of this.enemy1Percentage;track perc) {
+        <app-pokemon-percentage-summary [pokemon]="perc"></app-pokemon-percentage-summary>
+      }
     </div>
 
     <div class="col">
       <app-pokemon-input title="Enemy pokemon 2" (changed)="onPokemonChanged(enemy2)"
                          [pokemon]="enemy2"></app-pokemon-input>
+      @for (perc of this.enemy2Percentage;track perc) {
+        <app-pokemon-percentage-summary [pokemon]="perc"></app-pokemon-percentage-summary>
+      }
     </div>
 
     <div class="col">
       <app-pokemon-input title="Enemy pokemon 3" (changed)="onPokemonChanged(enemy3)"
                          [pokemon]="enemy3"></app-pokemon-input>
-    </div>
-    <!--        </div>-->
-    <!-- Other Inputs -->
-  </div>
-</div>
+      @if (this.enemy3Percentage) {
+        @for (perc of this.enemy3Percentage;track perc) {
+          <app-pokemon-percentage-summary [pokemon]="perc"></app-pokemon-percentage-summary>
+        }
+      } @else {
+        <div class="probabilities">
+          <div>
+            {{ str }}
+          </div>
+          @if (pokemonSets && pokemonSets.length <= 0) {
+            No pokemon available with more than a 4% chance of appearing
+          } @else {
 
-<div>
-  {{ str }}
-</div>
-<div style="display: flex; flex-direction: row" *ngFor="let ps of pokemonSets">
-  <div style="display: flex; flex-direction: row" *ngFor="let p of ps.pokemons">
-    <div>
-      {{ p.specie }} - {{ p.set }}
+            <div style="display: flex; flex-direction: row" *ngFor="let ps of pokemonSets">
+              <div>
+                {{ ps.pokemon.specie }} - {{ ps.percentage | percent }}
+              </div>
+            </div>
+          }
+        </div>
+      }
+
+
     </div>
   </div>
 </div>

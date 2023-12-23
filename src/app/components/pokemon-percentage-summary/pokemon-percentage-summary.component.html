@@ -1,0 +1,15 @@
+<mat-card>
+  <mat-card-subtitle>
+    {{ pokemon.pokemon.specie }}-{{ pokemon.pokemon.set }}-{{ pokemon.percentage | percent }}
+  </mat-card-subtitle>
+  <mat-card-content>
+
+    <div class="moves">
+      @for (move of pokemon.pokemon.moves;track move) {
+        <p>
+          {{ move }}
+        </p>
+      }
+    </div>
+  </mat-card-content>
+</mat-card>

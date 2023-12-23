@@ -1,3 +1,5 @@
+@use '@angular/material' as mat;
+
 //#enemies, #previousEnemy {
 //  display: flex;
 //  flex-direction: row;
@@ -13,3 +15,6 @@
 //  display: grid;
 //  grid-template-columns: 1fr 9fr;
 //}
+button{
+  margin: 5px 0;
+}

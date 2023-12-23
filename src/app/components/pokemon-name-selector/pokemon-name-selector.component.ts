@@ -27,6 +27,11 @@ import {AsyncPipe, NgIf} from "@angular/common";
   styleUrl: './pokemon-name-selector.component.scss'
 })
 export class PokemonNameSelectorComponent {
+  @Input() set specie(value: string | undefined) {
+    if (this.nameControl.value === value) return;
+    this.nameControl.setValue(value ?? '');
+  };
+
   pokemons?: string[];
   @Output() specieChanged = new EventEmitter<string>;
   @ViewChild('input') input!: ElementRef<HTMLInputElement>;
@@ -39,6 +44,7 @@ export class PokemonNameSelectorComponent {
       tap(x => this.specieChanged.next(x ?? ''))
     )
   }
+
   filter(): void {
     const filterValue = this.input.nativeElement.value.toLowerCase();
     this.pokemons = this.pokemonService.getAllPokemonNames().filter(o => o.toLowerCase().includes(filterValue));
