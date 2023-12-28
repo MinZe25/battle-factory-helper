@@ -37,22 +37,22 @@ export class AppComponent {
   public pokemonSets?: PokemonPercentage[]
   public algorithm: Algorithm;
   public str?: string;
-  enemy1: Pokemon = new Pokemon("Heracross", 1, ['', '', '', ''], [], "", "", "");
-  enemy2: Pokemon = new Pokemon("Latias", 1, ['', '', '', ''], [], "", "", "");
+  enemy1: Pokemon = new Pokemon("", 1, ['', '', '', ''], [], "", "", "");
+  enemy2: Pokemon = new Pokemon("", 1, ['', '', '', ''], [], "", "", "");
   enemy3: Pokemon = new Pokemon("", 1, ['', '', '', ''], [], "", "", "");
   public enemy2Percentage?: PokemonPercentage[];
   public enemy1Percentage?: PokemonPercentage[];
   public enemy3Percentage?: PokemonPercentage[];
-  party1?: string;
-  party2?: string;
-  party3?: string;
+  party1?: string = "";
+  party2?: string = "";
+  party3?: string = "";
   previous1?: string;
   previous2?: string;
   previous3?: string;
   round: number = 8;
   level: FrontierLevel = FrontierLevel.Level50;
-  type: PokemonType = "bug";
-  style: number = BattleStyle.HighRiskHighReturn;
+  type: PokemonType = "none";
+  style: number = BattleStyle.FreeSpirited;
 
   constructor(private pokemonService: IPokemonService) {
     this.pokemon = [];
@@ -60,9 +60,9 @@ export class AppComponent {
   }
 
   public nextBattle() {
-    this.party1 = '';
-    this.party2 = '';
-    this.party3 = '';
+    // this.party1 = '';
+    // this.party2 = '';
+    // this.party3 = '';
     if (!!this.enemy1.specie) {
       this.previous1 = this.enemy1.specie;
       this.enemy1.specie = '';
@@ -78,6 +78,9 @@ export class AppComponent {
   }
 
   public generateExcel() {
+    this.enemy1Percentage = undefined;
+    this.enemy2Percentage = undefined;
+    this.enemy3Percentage = undefined;
     const enemySet = new PokemonSet();
     const partySet = new PokemonSet();
     this.pokemon = this.pokemonService.getPokemonFromGroup(this.level, this.round);

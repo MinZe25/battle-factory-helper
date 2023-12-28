@@ -39,7 +39,7 @@
     {
       "Entry": "3",
       "Species": "Caterpie",
-      "Type": "bug,normal",
+      "Type": "bug",
       "Instance": "1",
       "Nature": "Quirky",
       "Item": "Focus Band",
@@ -111,7 +111,7 @@
     {
       "Entry": "7",
       "Species": "Magikarp",
-      "Type": "water,normal",
+      "Type": "water",
       "Instance": "1",
       "Nature": "Hardy",
       "Item": "Focus Band",
@@ -129,7 +129,7 @@
     {
       "Entry": "8",
       "Species": "Feebas",
-      "Type": "water,normal",
+      "Type": "water",
       "Instance": "1",
       "Nature": "Lonely",
       "Item": "Focus Band",
@@ -147,7 +147,7 @@
     {
       "Entry": "9",
       "Species": "Metapod",
-      "Type": "bug,normal",
+      "Type": "bug",
       "Instance": "1",
       "Nature": "Bashful",
       "Item": "Lax Incense",
@@ -273,7 +273,7 @@
     {
       "Entry": "16",
       "Species": "Tyrogue",
-      "Type": "fighting,normal",
+      "Type": "fighting",
       "Instance": "1",
       "Nature": "Docile",
       "Item": "Focus Band",
@@ -327,7 +327,7 @@
     {
       "Entry": "19",
       "Species": "Seedot",
-      "Type": "grass,normal",
+      "Type": "grass",
       "Instance": "1",
       "Nature": "Docile",
       "Item": "Focus Band",
@@ -363,7 +363,7 @@
     {
       "Entry": "21",
       "Species": "Poochyena",
-      "Type": "dark,normal",
+      "Type": "dark",
       "Instance": "1",
       "Nature": "Relaxed",
       "Item": "Petaya Berry",
@@ -435,7 +435,7 @@
     {
       "Entry": "25",
       "Species": "Zigzagoon",
-      "Type": "normal,dark",
+      "Type": "normal",
       "Instance": "1",
       "Nature": "Timid",
       "Item": "Silk Scarf",
@@ -543,7 +543,7 @@
     {
       "Entry": "31",
       "Species": "Slugma",
-      "Type": "fire,normal",
+      "Type": "fire",
       "Instance": "1",
       "Nature": "Sassy",
       "Item": "Sitrus Berry",
@@ -615,7 +615,7 @@
     {
       "Entry": "35",
       "Species": "Rattata",
-      "Type": "normal,dark",
+      "Type": "normal",
       "Instance": "1",
       "Nature": "Docile",
       "Item": "King's Rock",
@@ -633,7 +633,7 @@
     {
       "Entry": "36",
       "Species": "Wynaut",
-      "Type": "psychic,normal",
+      "Type": "psychic",
       "Instance": "1",
       "Nature": "Jolly",
       "Item": "Lax Incense",
@@ -831,7 +831,7 @@
     {
       "Entry": "47",
       "Species": "Nidoran♂",
-      "Type": "poison,normal",
+      "Type": "poison",
       "Instance": "1",
       "Nature": "Quirky",
       "Item": "Sitrus Berry",
@@ -849,7 +849,7 @@
     {
       "Entry": "48",
       "Species": "Nidoran♀",
-      "Type": "poison,normal",
+      "Type": "poison",
       "Instance": "1",
       "Nature": "Quirky",
       "Item": "Sitrus Berry",
@@ -885,7 +885,7 @@
     {
       "Entry": "50",
       "Species": "Mareep",
-      "Type": "electric,normal",
+      "Type": "electric",
       "Instance": "1",
       "Nature": "Relaxed",
       "Item": "Cheri Berry",
@@ -957,7 +957,7 @@
     {
       "Entry": "54",
       "Species": "Ekans",
-      "Type": "poison,normal",
+      "Type": "poison",
       "Instance": "1",
       "Nature": "Docile",
       "Item": "Poison Barb",
@@ -1011,7 +1011,7 @@
     {
       "Entry": "57",
       "Species": "Meowth",
-      "Type": "normal,dark",
+      "Type": "normal",
       "Instance": "1",
       "Nature": "Quirky",
       "Item": "Persim Berry",
@@ -1029,7 +1029,7 @@
     {
       "Entry": "58",
       "Species": "Pineco",
-      "Type": "bug,normal",
+      "Type": "bug",
       "Instance": "1",
       "Nature": "Quirky",
       "Item": "Focus Band",
@@ -1119,7 +1119,7 @@
     {
       "Entry": "63",
       "Species": "Shuppet",
-      "Type": "ghost,dark",
+      "Type": "ghost",
       "Instance": "1",
       "Nature": "Rash",
       "Item": "Rawst Berry",
@@ -1137,7 +1137,7 @@
     {
       "Entry": "64",
       "Species": "Duskull",
-      "Type": "ghost,normal",
+      "Type": "ghost",
       "Instance": "1",
       "Nature": "Quirky",
       "Item": "Persim Berry",
@@ -1155,7 +1155,7 @@
     {
       "Entry": "65",
       "Species": "Electrike",
-      "Type": "electric,normal",
+      "Type": "electric",
       "Instance": "1",
       "Nature": "Docile",
       "Item": "Cheri Berry",
@@ -1173,7 +1173,7 @@
     {
       "Entry": "66",
       "Species": "Vulpix",
-      "Type": "fire,ice",
+      "Type": "fire",
       "Instance": "1",
       "Nature": "Docile",
       "Item": "Rawst Berry",
@@ -1209,7 +1209,7 @@
     {
       "Entry": "68",
       "Species": "Sandshrew",
-      "Type": "ground,ice",
+      "Type": "ground",
       "Instance": "1",
       "Nature": "Docile",
       "Item": "Soft Sand",
@@ -1281,7 +1281,7 @@
     {
       "Entry": "72",
       "Species": "Dratini",
-      "Type": "dragon,normal",
+      "Type": "dragon",
       "Instance": "1",
       "Nature": "Docile",
       "Item": "Persim Berry",
@@ -1389,7 +1389,7 @@
     {
       "Entry": "78",
       "Species": "Bagon",
-      "Type": "dragon,normal",
+      "Type": "dragon",
       "Instance": "1",
       "Nature": "Naughty",
       "Item": "Liechi Berry",
@@ -1425,7 +1425,7 @@
     {
       "Entry": "80",
       "Species": "Gulpin",
-      "Type": "poison,normal",
+      "Type": "poison",
       "Instance": "1",
       "Nature": "Serious",
       "Item": "Lax Incense",
@@ -1461,7 +1461,7 @@
     {
       "Entry": "82",
       "Species": "Mankey",
-      "Type": "fighting,normal",
+      "Type": "fighting",
       "Instance": "1",
       "Nature": "Naughty",
       "Item": "Black Belt",
@@ -1497,7 +1497,7 @@
     {
       "Entry": "84",
       "Species": "Shellder",
-      "Type": "water,normal",
+      "Type": "water",
       "Instance": "1",
       "Nature": "Relaxed",
       "Item": "Cheri Berry",
@@ -1587,7 +1587,7 @@
     {
       "Entry": "89",
       "Species": "Charmander",
-      "Type": "fire,normal",
+      "Type": "fire",
       "Instance": "1",
       "Nature": "Docile",
       "Item": "Focus Band",
@@ -1605,7 +1605,7 @@
     {
       "Entry": "90",
       "Species": "Cyndaquil",
-      "Type": "fire,normal",
+      "Type": "fire",
       "Instance": "1",
       "Nature": "Docile",
       "Item": "Sitrus Berry",
@@ -1713,7 +1713,7 @@
     {
       "Entry": "96",
       "Species": "Torchic",
-      "Type": "fire,normal",
+      "Type": "fire",
       "Instance": "1",
       "Nature": "Lonely",
       "Item": "BrightPowder",
@@ -1731,7 +1731,7 @@
     {
       "Entry": "97",
       "Species": "Mudkip",
-      "Type": "water,normal",
+      "Type": "water",
       "Instance": "1",
       "Nature": "Docile",
       "Item": "Focus Band",
@@ -1821,7 +1821,7 @@
     {
       "Entry": "102",
       "Species": "Chikorita",
-      "Type": "grass,normal",
+      "Type": "grass",
       "Instance": "1",
       "Nature": "Relaxed",
       "Item": "BrightPowder",
@@ -1875,7 +1875,7 @@
     {
       "Entry": "105",
       "Species": "Cubone",
-      "Type": "ground,normal",
+      "Type": "ground",
       "Instance": "1",
       "Nature": "Hardy",
       "Item": "Soft Sand",
@@ -1893,7 +1893,7 @@
     {
       "Entry": "106",
       "Species": "Goldeen",
-      "Type": "water,flying",
+      "Type": "water",
       "Instance": "1",
       "Nature": "Docile",
       "Item": "Petaya Berry",
@@ -1965,7 +1965,7 @@
     {
       "Entry": "110",
       "Species": "Seel",
-      "Type": "water,normal",
+      "Type": "water",
       "Instance": "1",
       "Nature": "Hardy",
       "Item": "Aspear Berry",
@@ -2109,7 +2109,7 @@
     {
       "Entry": "118",
       "Species": "Teddiursa",
-      "Type": "normal,dark",
+      "Type": "normal",
       "Instance": "1",
       "Nature": "Relaxed",
       "Item": "Chesto Berry",
@@ -2163,7 +2163,7 @@
     {
       "Entry": "121",
       "Species": "Phanpy",
-      "Type": "ground,normal",
+      "Type": "ground",
       "Instance": "1",
       "Nature": "Naughty",
       "Item": "Lax Incense",
@@ -2181,7 +2181,7 @@
     {
       "Entry": "122",
       "Species": "Spoink",
-      "Type": "psychic,normal",
+      "Type": "psychic",
       "Instance": "1",
       "Nature": "Relaxed",
       "Item": "Sitrus Berry",
@@ -2253,7 +2253,7 @@
     {
       "Entry": "126",
       "Species": "Cacnea",
-      "Type": "grass,poison",
+      "Type": "grass",
       "Instance": "1",
       "Nature": "Quirky",
       "Item": "Sitrus Berry",
@@ -2271,7 +2271,7 @@
     {
       "Entry": "127",
       "Species": "Unown",
-      "Type": "psychic,normal",
+      "Type": "psychic",
       "Instance": "1",
       "Nature": "Hardy",
       "Item": "Lax Incense",
@@ -2577,7 +2577,7 @@
     {
       "Entry": "144",
       "Species": "Elekid",
-      "Type": "electric,normal",
+      "Type": "electric",
       "Instance": "1",
       "Nature": "Naive",
       "Item": "Cheri Berry",
@@ -2595,7 +2595,7 @@
     {
       "Entry": "145",
       "Species": "Loudred",
-      "Type": "normal,dark",
+      "Type": "normal",
       "Instance": "1",
       "Nature": "Relaxed",
       "Item": "Focus Band",
@@ -2631,7 +2631,7 @@
     {
       "Entry": "147",
       "Species": "Nidorina",
-      "Type": "poison,normal",
+      "Type": "poison",
       "Instance": "1",
       "Nature": "Quirky",
       "Item": "Focus Band",
@@ -2649,7 +2649,7 @@
     {
       "Entry": "148",
       "Species": "Nidorino",
-      "Type": "poison,normal",
+      "Type": "poison",
       "Instance": "1",
       "Nature": "Quirky",
       "Item": "Focus Band",
@@ -2667,7 +2667,7 @@
     {
       "Entry": "149",
       "Species": "Flaaffy",
-      "Type": "electric,normal",
+      "Type": "electric",
       "Instance": "1",
       "Nature": "Mild",
       "Item": "Magnet",
@@ -2685,7 +2685,7 @@
     {
       "Entry": "150",
       "Species": "Magby",
-      "Type": "fire,poison",
+      "Type": "fire",
       "Instance": "1",
       "Nature": "Docile",
       "Item": "Lax Incense",
@@ -2955,7 +2955,7 @@
     {
       "Entry": "165",
       "Species": "Lickitung",
-      "Type": "normal,ghost",
+      "Type": "normal",
       "Instance": "1",
       "Nature": "Quirky",
       "Item": "Sitrus Berry",
@@ -3063,7 +3063,7 @@
     {
       "Entry": "171",
       "Species": "Wailmer",
-      "Type": "water,normal",
+      "Type": "water",
       "Instance": "1",
       "Nature": "Docile",
       "Item": "Lax Incense",
@@ -3099,7 +3099,7 @@
     {
       "Entry": "173",
       "Species": "Volbeat",
-      "Type": "bug,normal",
+      "Type": "bug",
       "Instance": "1",
       "Nature": "Quirky",
       "Item": "Liechi Berry",
@@ -3117,7 +3117,7 @@
     {
       "Entry": "174",
       "Species": "Illumise",
-      "Type": "bug,normal",
+      "Type": "bug",
       "Instance": "1",
       "Nature": "Quirky",
       "Item": "Liechi Berry",
@@ -3155,7 +3155,7 @@
     {
       "Entry": "176",
       "Species": "Charmeleon",
-      "Type": "fire,normal",
+      "Type": "fire",
       "Instance": "1",
       "Nature": "Naughty",
       "Item": "Scope Lens",
@@ -3245,7 +3245,7 @@
     {
       "Entry": "181",
       "Species": "Bayleef",
-      "Type": "grass,normal",
+      "Type": "grass",
       "Instance": "1",
       "Nature": "Docile",
       "Item": "BrightPowder",
@@ -3263,7 +3263,7 @@
     {
       "Entry": "182",
       "Species": "Quilava",
-      "Type": "fire,normal",
+      "Type": "fire",
       "Instance": "1",
       "Nature": "Docile",
       "Item": "Focus Band",
@@ -3281,7 +3281,7 @@
     {
       "Entry": "183",
       "Species": "Croconaw",
-      "Type": "water,normal",
+      "Type": "water",
       "Instance": "1",
       "Nature": "Docile",
       "Item": "Scope Lens",
@@ -3335,7 +3335,7 @@
     {
       "Entry": "186",
       "Species": "Wobbuffet",
-      "Type": "psychic,fighting",
+      "Type": "psychic",
       "Instance": "1",
       "Nature": "Careful",
       "Item": "Focus Band",
@@ -3389,7 +3389,7 @@
     {
       "Entry": "189",
       "Species": "Grovyle",
-      "Type": "grass,bug",
+      "Type": "grass",
       "Instance": "1",
       "Nature": "Relaxed",
       "Item": "BrightPowder",
@@ -3443,7 +3443,7 @@
     {
       "Entry": "192",
       "Species": "Ponyta",
-      "Type": "fire,psychic",
+      "Type": "fire",
       "Instance": "1",
       "Nature": "Hardy",
       "Item": "Rawst Berry",
@@ -3551,7 +3551,7 @@
     {
       "Entry": "198",
       "Species": "Raticate",
-      "Type": "normal,dark",
+      "Type": "normal",
       "Instance": "1",
       "Nature": "Naive",
       "Item": "Silk Scarf",
@@ -3623,7 +3623,7 @@
     {
       "Entry": "202",
       "Species": "Dragonair",
-      "Type": "dragon,normal",
+      "Type": "dragon",
       "Instance": "1",
       "Nature": "Docile",
       "Item": "Cheri Berry",
@@ -3659,7 +3659,7 @@
     {
       "Entry": "204",
       "Species": "Linoone",
-      "Type": "normal,dark",
+      "Type": "normal",
       "Instance": "1",
       "Nature": "Adamant",
       "Item": "White Herb",
@@ -3677,7 +3677,7 @@
     {
       "Entry": "205",
       "Species": "Castform",
-      "Type": "normal,fire",
+      "Type": "normal",
       "Instance": "1",
       "Nature": "Hasty",
       "Item": "Petaya Berry",
@@ -3695,7 +3695,7 @@
     {
       "Entry": "206",
       "Species": "Shelgon",
-      "Type": "dragon,normal",
+      "Type": "dragon",
       "Instance": "1",
       "Nature": "Hardy",
       "Item": "Cheri Berry",
@@ -3911,7 +3911,7 @@
     {
       "Entry": "218",
       "Species": "Arbok",
-      "Type": "poison,dark",
+      "Type": "poison",
       "Instance": "1",
       "Nature": "Adamant",
       "Item": "Persim Berry",
@@ -3929,7 +3929,7 @@
     {
       "Entry": "219",
       "Species": "Persian",
-      "Type": "normal,dark",
+      "Type": "normal",
       "Instance": "1",
       "Nature": "Quirky",
       "Item": "Silk Scarf",
@@ -3965,7 +3965,7 @@
     {
       "Entry": "221",
       "Species": "Kecleon",
-      "Type": "normal,dark",
+      "Type": "normal",
       "Instance": "1",
       "Nature": "Naive",
       "Item": "Focus Band",
@@ -3983,7 +3983,7 @@
     {
       "Entry": "222",
       "Species": "Vigoroth",
-      "Type": "normal,fighting",
+      "Type": "normal",
       "Instance": "1",
       "Nature": "Lonely",
       "Item": "Focus Band",
@@ -4055,7 +4055,7 @@
     {
       "Entry": "226",
       "Species": "Sandslash",
-      "Type": "ground,ice",
+      "Type": "ground",
       "Instance": "1",
       "Nature": "Adamant",
       "Item": "Sitrus Berry",
@@ -4109,7 +4109,7 @@
     {
       "Entry": "229",
       "Species": "Seaking",
-      "Type": "water,bug",
+      "Type": "water",
       "Instance": "1",
       "Nature": "Docile",
       "Item": "Sitrus Berry",
@@ -4181,7 +4181,7 @@
     {
       "Entry": "233",
       "Species": "Primeape",
-      "Type": "fighting,normal",
+      "Type": "fighting",
       "Instance": "1",
       "Nature": "Quirky",
       "Item": "Scope Lens",
@@ -4307,7 +4307,7 @@
     {
       "Entry": "240",
       "Species": "Seviper",
-      "Type": "poison,normal",
+      "Type": "poison",
       "Instance": "1",
       "Nature": "Hardy",
       "Item": "Scope Lens",
@@ -4451,7 +4451,7 @@
     {
       "Entry": "248",
       "Species": "Absol",
-      "Type": "dark,normal",
+      "Type": "dark",
       "Instance": "1",
       "Nature": "Adamant",
       "Item": "BrightPowder",
@@ -4469,7 +4469,7 @@
     {
       "Entry": "249",
       "Species": "Swalot",
-      "Type": "poison,normal",
+      "Type": "poison",
       "Instance": "1",
       "Nature": "Quirky",
       "Item": "Lax Incense",
@@ -4523,7 +4523,7 @@
     {
       "Entry": "252",
       "Species": "Grumpig",
-      "Type": "psychic,normal",
+      "Type": "psychic",
       "Instance": "1",
       "Nature": "Relaxed",
       "Item": "Petaya Berry",
@@ -4559,7 +4559,7 @@
     {
       "Entry": "254",
       "Species": "Kingler",
-      "Type": "water,rock",
+      "Type": "water",
       "Instance": "1",
       "Nature": "Hardy",
       "Item": "Scope Lens",
@@ -4847,7 +4847,7 @@
     {
       "Entry": "270",
       "Species": "Lickitung",
-      "Type": "normal,ghost",
+      "Type": "normal",
       "Instance": "2",
       "Nature": "Adamant",
       "Item": "Cheri Berry",
@@ -4955,7 +4955,7 @@
     {
       "Entry": "276",
       "Species": "Wailmer",
-      "Type": "water,normal",
+      "Type": "water",
       "Instance": "2",
       "Nature": "Docile",
       "Item": "Chesto Berry",
@@ -4991,7 +4991,7 @@
     {
       "Entry": "278",
       "Species": "Volbeat",
-      "Type": "bug,normal",
+      "Type": "bug",
       "Instance": "2",
       "Nature": "Quirky",
       "Item": "Petaya Berry",
@@ -5009,7 +5009,7 @@
     {
       "Entry": "279",
       "Species": "Illumise",
-      "Type": "bug,normal",
+      "Type": "bug",
       "Instance": "2",
       "Nature": "Quirky",
       "Item": "Petaya Berry",
@@ -5045,7 +5045,7 @@
     {
       "Entry": "281",
       "Species": "Charmeleon",
-      "Type": "fire,normal",
+      "Type": "fire",
       "Instance": "2",
       "Nature": "Hardy",
       "Item": "Scope Lens",
@@ -5135,7 +5135,7 @@
     {
       "Entry": "286",
       "Species": "Bayleef",
-      "Type": "grass,normal",
+      "Type": "grass",
       "Instance": "2",
       "Nature": "Docile",
       "Item": "Chesto Berry",
@@ -5153,7 +5153,7 @@
     {
       "Entry": "287",
       "Species": "Quilava",
-      "Type": "fire,normal",
+      "Type": "fire",
       "Instance": "2",
       "Nature": "Docile",
       "Item": "BrightPowder",
@@ -5171,7 +5171,7 @@
     {
       "Entry": "288",
       "Species": "Croconaw",
-      "Type": "water,normal",
+      "Type": "water",
       "Instance": "2",
       "Nature": "Adamant",
       "Item": "Focus Band",
@@ -5225,7 +5225,7 @@
     {
       "Entry": "291",
       "Species": "Wobbuffet",
-      "Type": "psychic,fighting",
+      "Type": "psychic",
       "Instance": "2",
       "Nature": "Careful",
       "Item": "Focus Band",
@@ -5279,7 +5279,7 @@
     {
       "Entry": "294",
       "Species": "Grovyle",
-      "Type": "grass,bug",
+      "Type": "grass",
       "Instance": "2",
       "Nature": "Docile",
       "Item": "Lum Berry",
@@ -5333,7 +5333,7 @@
     {
       "Entry": "297",
       "Species": "Ponyta",
-      "Type": "fire,psychic",
+      "Type": "fire",
       "Instance": "2",
       "Nature": "Quirky",
       "Item": "Sitrus Berry",
@@ -5441,7 +5441,7 @@
     {
       "Entry": "303",
       "Species": "Raticate",
-      "Type": "normal,dark",
+      "Type": "normal",
       "Instance": "2",
       "Nature": "Adamant",
       "Item": "Focus Band",
@@ -5513,7 +5513,7 @@
     {
       "Entry": "307",
       "Species": "Dragonair",
-      "Type": "dragon,normal",
+      "Type": "dragon",
       "Instance": "2",
       "Nature": "Adamant",
       "Item": "Chesto Berry",
@@ -5549,7 +5549,7 @@
     {
       "Entry": "309",
       "Species": "Linoone",
-      "Type": "normal,dark",
+      "Type": "normal",
       "Instance": "2",
       "Nature": "Jolly",
       "Item": "Choice Band",
@@ -5567,7 +5567,7 @@
     {
       "Entry": "310",
       "Species": "Castform",
-      "Type": "normal,fire",
+      "Type": "normal",
       "Instance": "2",
       "Nature": "Modest",
       "Item": "Lax Incense",
@@ -5585,7 +5585,7 @@
     {
       "Entry": "311",
       "Species": "Shelgon",
-      "Type": "dragon,normal",
+      "Type": "dragon",
       "Instance": "2",
       "Nature": "Hardy",
       "Item": "Focus Band",
@@ -5801,7 +5801,7 @@
     {
       "Entry": "323",
       "Species": "Arbok",
-      "Type": "poison,dark",
+      "Type": "poison",
       "Instance": "2",
       "Nature": "Adamant",
       "Item": "Lum Berry",
@@ -5819,7 +5819,7 @@
     {
       "Entry": "324",
       "Species": "Persian",
-      "Type": "normal,dark",
+      "Type": "normal",
       "Instance": "2",
       "Nature": "Quirky",
       "Item": "Silk Scarf",
@@ -5855,7 +5855,7 @@
     {
       "Entry": "326",
       "Species": "Kecleon",
-      "Type": "normal,dark",
+      "Type": "normal",
       "Instance": "2",
       "Nature": "Docile",
       "Item": "Choice Band",
@@ -5873,7 +5873,7 @@
     {
       "Entry": "327",
       "Species": "Vigoroth",
-      "Type": "normal,fighting",
+      "Type": "normal",
       "Instance": "2",
       "Nature": "Adamant",
       "Item": "Salac Berry",
@@ -5945,7 +5945,7 @@
     {
       "Entry": "331",
       "Species": "Sandslash",
-      "Type": "ground,ice",
+      "Type": "ground",
       "Instance": "2",
       "Nature": "Adamant",
       "Item": "Quick Claw",
@@ -5999,7 +5999,7 @@
     {
       "Entry": "334",
       "Species": "Seaking",
-      "Type": "water,bug",
+      "Type": "water",
       "Instance": "2",
       "Nature": "Impish",
       "Item": "Quick Claw",
@@ -6071,7 +6071,7 @@
     {
       "Entry": "338",
       "Species": "Primeape",
-      "Type": "fighting,normal",
+      "Type": "fighting",
       "Instance": "2",
       "Nature": "Quirky",
       "Item": "Scope Lens",
@@ -6197,7 +6197,7 @@
     {
       "Entry": "345",
       "Species": "Seviper",
-      "Type": "poison,normal",
+      "Type": "poison",
       "Instance": "2",
       "Nature": "Quirky",
       "Item": "Quick Claw",
@@ -6341,7 +6341,7 @@
     {
       "Entry": "353",
       "Species": "Absol",
-      "Type": "dark,normal",
+      "Type": "dark",
       "Instance": "2",
       "Nature": "Adamant",
       "Item": "Choice Band",
@@ -6359,7 +6359,7 @@
     {
       "Entry": "354",
       "Species": "Swalot",
-      "Type": "poison,normal",
+      "Type": "poison",
       "Instance": "2",
       "Nature": "Adamant",
       "Item": "Leftovers",
@@ -6413,7 +6413,7 @@
     {
       "Entry": "357",
       "Species": "Grumpig",
-      "Type": "psychic,normal",
+      "Type": "psychic",
       "Instance": "2",
       "Nature": "Modest",
       "Item": "Lum Berry",
@@ -6449,7 +6449,7 @@
     {
       "Entry": "359",
       "Species": "Kingler",
-      "Type": "water,rock",
+      "Type": "water",
       "Instance": "2",
       "Nature": "Adamant",
       "Item": "Salac Berry",
@@ -6973,7 +6973,7 @@
     {
       "Entry": "388",
       "Species": "Marowak",
-      "Type": "ground,fire",
+      "Type": "ground",
       "Instance": "1",
       "Nature": "Adamant",
       "Item": "Thick Club",
@@ -7333,7 +7333,7 @@
     {
       "Entry": "408",
       "Species": "Electabuzz",
-      "Type": "electric,ground",
+      "Type": "electric",
       "Instance": "1",
       "Nature": "Relaxed",
       "Item": "Cheri Berry",
@@ -7351,7 +7351,7 @@
     {
       "Entry": "409",
       "Species": "Tauros",
-      "Type": "normal,fighting",
+      "Type": "normal",
       "Instance": "1",
       "Nature": "Adamant",
       "Item": "Persim Berry",
@@ -7477,7 +7477,7 @@
     {
       "Entry": "416",
       "Species": "Magmar",
-      "Type": "fire,poison",
+      "Type": "fire",
       "Instance": "1",
       "Nature": "Relaxed",
       "Item": "Rawst Berry",
@@ -7531,7 +7531,7 @@
     {
       "Entry": "419",
       "Species": "Golduck",
-      "Type": "water,normal",
+      "Type": "water",
       "Instance": "1",
       "Nature": "Quiet",
       "Item": "Shell Bell",
@@ -7549,7 +7549,7 @@
     {
       "Entry": "420",
       "Species": "Rapidash",
-      "Type": "fire,psychic",
+      "Type": "fire",
       "Instance": "1",
       "Nature": "Quiet",
       "Item": "Charcoal",
@@ -7657,7 +7657,7 @@
     {
       "Entry": "426",
       "Species": "Ursaring",
-      "Type": "normal,fighting",
+      "Type": "normal",
       "Instance": "1",
       "Nature": "Docile",
       "Item": "Quick Claw",
@@ -7693,7 +7693,7 @@
     {
       "Entry": "428",
       "Species": "Donphan",
-      "Type": "ground,normal",
+      "Type": "ground",
       "Instance": "1",
       "Nature": "Adamant",
       "Item": "Chesto Berry",
@@ -7747,7 +7747,7 @@
     {
       "Entry": "431",
       "Species": "Ninetales",
-      "Type": "fire,ice",
+      "Type": "fire",
       "Instance": "1",
       "Nature": "Modest",
       "Item": "Rawst Berry",
@@ -7765,7 +7765,7 @@
     {
       "Entry": "432",
       "Species": "Machamp",
-      "Type": "fighting,rock",
+      "Type": "fighting",
       "Instance": "1",
       "Nature": "Adamant",
       "Item": "Scope Lens",
@@ -7855,7 +7855,7 @@
     {
       "Entry": "437",
       "Species": "Porygon2",
-      "Type": "normal,electric",
+      "Type": "normal",
       "Instance": "1",
       "Nature": "Adamant",
       "Item": "Leftovers",
@@ -8035,7 +8035,7 @@
     {
       "Entry": "447",
       "Species": "Espeon",
-      "Type": "psychic,psychic",
+      "Type": "psychic",
       "Instance": "1",
       "Nature": "Modest",
       "Item": "Lum Berry",
@@ -8089,7 +8089,7 @@
     {
       "Entry": "450",
       "Species": "Feraligatr",
-      "Type": "water,psychic",
+      "Type": "water",
       "Instance": "1",
       "Nature": "Quiet",
       "Item": "Lum Berry",
@@ -8467,7 +8467,7 @@
     {
       "Entry": "471",
       "Species": "Marowak",
-      "Type": "ground,fire",
+      "Type": "ground",
       "Instance": "2",
       "Nature": "Adamant",
       "Item": "Thick Club",
@@ -9061,7 +9061,7 @@
     {
       "Entry": "504",
       "Species": "Electabuzz",
-      "Type": "electric,ground",
+      "Type": "electric",
       "Instance": "2",
       "Nature": "Quirky",
       "Item": "Leftovers",
@@ -9079,7 +9079,7 @@
     {
       "Entry": "505",
       "Species": "Tauros",
-      "Type": "normal,fighting",
+      "Type": "normal",
       "Instance": "2",
       "Nature": "Adamant",
       "Item": "Chesto Berry",
@@ -9205,7 +9205,7 @@
     {
       "Entry": "512",
       "Species": "Magmar",
-      "Type": "fire,poison",
+      "Type": "fire",
       "Instance": "2",
       "Nature": "Modest",
       "Item": "Quick Claw",
@@ -9259,7 +9259,7 @@
     {
       "Entry": "515",
       "Species": "Golduck",
-      "Type": "water,normal",
+      "Type": "water",
       "Instance": "2",
       "Nature": "Quirky",
       "Item": "Lum Berry",
@@ -9277,7 +9277,7 @@
     {
       "Entry": "516",
       "Species": "Rapidash",
-      "Type": "fire,psychic",
+      "Type": "fire",
       "Instance": "2",
       "Nature": "Docile",
       "Item": "Leftovers",
@@ -9385,7 +9385,7 @@
     {
       "Entry": "522",
       "Species": "Ursaring",
-      "Type": "normal,fighting",
+      "Type": "normal",
       "Instance": "2",
       "Nature": "Adamant",
       "Item": "Quick Claw",
@@ -9421,7 +9421,7 @@
     {
       "Entry": "524",
       "Species": "Donphan",
-      "Type": "ground,normal",
+      "Type": "ground",
       "Instance": "2",
       "Nature": "Jolly",
       "Item": "Quick Claw",
@@ -9475,7 +9475,7 @@
     {
       "Entry": "527",
       "Species": "Ninetales",
-      "Type": "fire,ice",
+      "Type": "fire",
       "Instance": "2",
       "Nature": "Quirky",
       "Item": "Lum Berry",
@@ -9493,7 +9493,7 @@
     {
       "Entry": "528",
       "Species": "Machamp",
-      "Type": "fighting,rock",
+      "Type": "fighting",
       "Instance": "2",
       "Nature": "Adamant",
       "Item": "Chesto Berry",
@@ -9583,7 +9583,7 @@
     {
       "Entry": "533",
       "Species": "Porygon2",
-      "Type": "normal,electric",
+      "Type": "normal",
       "Instance": "2",
       "Nature": "Modest",
       "Item": "Lum Berry",
@@ -9763,7 +9763,7 @@
     {
       "Entry": "543",
       "Species": "Espeon",
-      "Type": "psychic,psychic",
+      "Type": "psychic",
       "Instance": "2",
       "Nature": "Docile",
       "Item": "Chesto Berry",
@@ -9817,7 +9817,7 @@
     {
       "Entry": "546",
       "Species": "Feraligatr",
-      "Type": "water,psychic",
+      "Type": "water",
       "Instance": "2",
       "Nature": "Sassy",
       "Item": "Quick Claw",
@@ -10429,7 +10429,7 @@
     {
       "Entry": "580",
       "Species": "Marowak",
-      "Type": "ground,fire",
+      "Type": "ground",
       "Instance": "3",
       "Nature": "Adamant",
       "Item": "Thick Club",
@@ -10789,7 +10789,7 @@
     {
       "Entry": "600",
       "Species": "Electabuzz",
-      "Type": "electric,ground",
+      "Type": "electric",
       "Instance": "3",
       "Nature": "Quirky",
       "Item": "Lum Berry",
@@ -10807,7 +10807,7 @@
     {
       "Entry": "601",
       "Species": "Tauros",
-      "Type": "normal,fighting",
+      "Type": "normal",
       "Instance": "3",
       "Nature": "Docile",
       "Item": "Leftovers",
@@ -10933,7 +10933,7 @@
     {
       "Entry": "608",
       "Species": "Magmar",
-      "Type": "fire,poison",
+      "Type": "fire",
       "Instance": "3",
       "Nature": "Impish",
       "Item": "Scope Lens",
@@ -10987,7 +10987,7 @@
     {
       "Entry": "611",
       "Species": "Golduck",
-      "Type": "water,normal",
+      "Type": "water",
       "Instance": "3",
       "Nature": "Docile",
       "Item": "Shell Bell",
@@ -11005,7 +11005,7 @@
     {
       "Entry": "612",
       "Species": "Rapidash",
-      "Type": "fire,psychic",
+      "Type": "fire",
       "Instance": "3",
       "Nature": "Modest",
       "Item": "White Herb",
@@ -11113,7 +11113,7 @@
     {
       "Entry": "618",
       "Species": "Ursaring",
-      "Type": "normal,fighting",
+      "Type": "normal",
       "Instance": "3",
       "Nature": "Modest",
       "Item": "Lum Berry",
@@ -11149,7 +11149,7 @@
     {
       "Entry": "620",
       "Species": "Donphan",
-      "Type": "ground,normal",
+      "Type": "ground",
       "Instance": "3",
       "Nature": "Adamant",
       "Item": "Quick Claw",
@@ -11203,7 +11203,7 @@
     {
       "Entry": "623",
       "Species": "Ninetales",
-      "Type": "fire,ice",
+      "Type": "fire",
       "Instance": "3",
       "Nature": "Quirky",
       "Item": "BrightPowder",
@@ -11221,7 +11221,7 @@
     {
       "Entry": "624",
       "Species": "Machamp",
-      "Type": "fighting,rock",
+      "Type": "fighting",
       "Instance": "3",
       "Nature": "Hardy",
       "Item": "Quick Claw",
@@ -11311,7 +11311,7 @@
     {
       "Entry": "629",
       "Species": "Porygon2",
-      "Type": "normal,electric",
+      "Type": "normal",
       "Instance": "3",
       "Nature": "Modest",
       "Item": "Lum Berry",
@@ -11491,7 +11491,7 @@
     {
       "Entry": "639",
       "Species": "Espeon",
-      "Type": "psychic,psychic",
+      "Type": "psychic",
       "Instance": "3",
       "Nature": "Modest",
       "Item": "Lum Berry",
@@ -11545,7 +11545,7 @@
     {
       "Entry": "642",
       "Species": "Feraligatr",
-      "Type": "water,psychic",
+      "Type": "water",
       "Instance": "3",
       "Nature": "Hardy",
       "Item": "Scope Lens",
@@ -12157,7 +12157,7 @@
     {
       "Entry": "676",
       "Species": "Marowak",
-      "Type": "ground,fire",
+      "Type": "ground",
       "Instance": "4",
       "Nature": "Adamant",
       "Item": "Thick Club",
@@ -12517,7 +12517,7 @@
     {
       "Entry": "696",
       "Species": "Electabuzz",
-      "Type": "electric,ground",
+      "Type": "electric",
       "Instance": "4",
       "Nature": "Docile",
       "Item": "Scope Lens",
@@ -12535,7 +12535,7 @@
     {
       "Entry": "697",
       "Species": "Tauros",
-      "Type": "normal,fighting",
+      "Type": "normal",
       "Instance": "4",
       "Nature": "Docile",
       "Item": "BrightPowder",
@@ -12661,7 +12661,7 @@
     {
       "Entry": "704",
       "Species": "Magmar",
-      "Type": "fire,poison",
+      "Type": "fire",
       "Instance": "4",
       "Nature": "Docile",
       "Item": "Scope Lens",
@@ -12715,7 +12715,7 @@
     {
       "Entry": "707",
       "Species": "Golduck",
-      "Type": "water,normal",
+      "Type": "water",
       "Instance": "4",
       "Nature": "Docile",
       "Item": "Scope Lens",
@@ -12733,7 +12733,7 @@
     {
       "Entry": "708",
       "Species": "Rapidash",
-      "Type": "fire,psychic",
+      "Type": "fire",
       "Instance": "4",
       "Nature": "Docile",
       "Item": "White Herb",
@@ -12841,7 +12841,7 @@
     {
       "Entry": "714",
       "Species": "Ursaring",
-      "Type": "normal,fighting",
+      "Type": "normal",
       "Instance": "4",
       "Nature": "Adamant",
       "Item": "BrightPowder",
@@ -12877,7 +12877,7 @@
     {
       "Entry": "716",
       "Species": "Donphan",
-      "Type": "ground,normal",
+      "Type": "ground",
       "Instance": "4",
       "Nature": "Adamant",
       "Item": "Quick Claw",
@@ -12931,7 +12931,7 @@
     {
       "Entry": "719",
       "Species": "Ninetales",
-      "Type": "fire,ice",
+      "Type": "fire",
       "Instance": "4",
       "Nature": "Quirky",
       "Item": "White Herb",
@@ -12949,7 +12949,7 @@
     {
       "Entry": "720",
       "Species": "Machamp",
-      "Type": "fighting,rock",
+      "Type": "fighting",
       "Instance": "4",
       "Nature": "Hardy",
       "Item": "Scope Lens",
@@ -13039,7 +13039,7 @@
     {
       "Entry": "725",
       "Species": "Porygon2",
-      "Type": "normal,electric",
+      "Type": "normal",
       "Instance": "4",
       "Nature": "Modest",
       "Item": "BrightPowder",
@@ -13219,7 +13219,7 @@
     {
       "Entry": "735",
       "Species": "Espeon",
-      "Type": "psychic,psychic",
+      "Type": "psychic",
       "Instance": "4",
       "Nature": "Modest",
       "Item": "BrightPowder",
@@ -13273,7 +13273,7 @@
     {
       "Entry": "738",
       "Species": "Feraligatr",
-      "Type": "water,psychic",
+      "Type": "water",
       "Instance": "4",
       "Nature": "Hardy",
       "Item": "Scope Lens",
@@ -13669,7 +13669,7 @@
     {
       "Entry": "760",
       "Species": "Raikou",
-      "Type": "electric,psychic",
+      "Type": "electric",
       "Instance": "1",
       "Nature": "Modest",
       "Item": "Chesto Berry",
@@ -13705,7 +13705,7 @@
     {
       "Entry": "762",
       "Species": "Suicune",
-      "Type": "water,ice",
+      "Type": "water",
       "Instance": "1",
       "Nature": "Modest",
       "Item": "Chesto Berry",
@@ -13723,7 +13723,7 @@
     {
       "Entry": "763",
       "Species": "Regirock",
-      "Type": "rock,normal",
+      "Type": "rock",
       "Instance": "1",
       "Nature": "Adamant",
       "Item": "White Herb",
@@ -13741,7 +13741,7 @@
     {
       "Entry": "764",
       "Species": "Regice",
-      "Type": "ice,normal",
+      "Type": "ice",
       "Instance": "1",
       "Nature": "Modest",
       "Item": "Chesto Berry",
@@ -13759,7 +13759,7 @@
     {
       "Entry": "765",
       "Species": "Registeel",
-      "Type": "steel,normal",
+      "Type": "steel",
       "Instance": "1",
       "Nature": "Adamant",
       "Item": "Chesto Berry",
@@ -13867,7 +13867,7 @@
     {
       "Entry": "771",
       "Species": "Raikou",
-      "Type": "electric,psychic",
+      "Type": "electric",
       "Instance": "2",
       "Nature": "Modest",
       "Item": "BrightPowder",
@@ -13903,7 +13903,7 @@
     {
       "Entry": "773",
       "Species": "Suicune",
-      "Type": "water,ice",
+      "Type": "water",
       "Instance": "2",
       "Nature": "Calm",
       "Item": "Leftovers",
@@ -13921,7 +13921,7 @@
     {
       "Entry": "774",
       "Species": "Regirock",
-      "Type": "rock,normal",
+      "Type": "rock",
       "Instance": "2",
       "Nature": "Adamant",
       "Item": "Quick Claw",
@@ -13939,7 +13939,7 @@
     {
       "Entry": "775",
       "Species": "Regice",
-      "Type": "ice,normal",
+      "Type": "ice",
       "Instance": "2",
       "Nature": "Quiet",
       "Item": "BrightPowder",
@@ -13957,7 +13957,7 @@
     {
       "Entry": "776",
       "Species": "Registeel",
-      "Type": "steel,normal",
+      "Type": "steel",
       "Instance": "2",
       "Nature": "Quiet",
       "Item": "BrightPowder",
@@ -14065,7 +14065,7 @@
     {
       "Entry": "782",
       "Species": "Raikou",
-      "Type": "electric,psychic",
+      "Type": "electric",
       "Instance": "3",
       "Nature": "Modest",
       "Item": "King's Rock",
@@ -14101,7 +14101,7 @@
     {
       "Entry": "784",
       "Species": "Suicune",
-      "Type": "water,ice",
+      "Type": "water",
       "Instance": "3",
       "Nature": "Modest",
       "Item": "Lum Berry",
@@ -14119,7 +14119,7 @@
     {
       "Entry": "785",
       "Species": "Regirock",
-      "Type": "rock,normal",
+      "Type": "rock",
       "Instance": "3",
       "Nature": "Adamant",
       "Item": "Chesto Berry",
@@ -14137,7 +14137,7 @@
     {
       "Entry": "786",
       "Species": "Regice",
-      "Type": "ice,normal",
+      "Type": "ice",
       "Instance": "3",
       "Nature": "Quiet",
       "Item": "Lum Berry",
@@ -14155,7 +14155,7 @@
     {
       "Entry": "787",
       "Species": "Registeel",
-      "Type": "steel,normal",
+      "Type": "steel",
       "Instance": "3",
       "Nature": "Adamant",
       "Item": "Quick Claw",
@@ -14263,7 +14263,7 @@
     {
       "Entry": "793",
       "Species": "Raikou",
-      "Type": "electric,psychic",
+      "Type": "electric",
       "Instance": "4",
       "Nature": "Modest",
       "Item": "Lum Berry",
@@ -14299,7 +14299,7 @@
     {
       "Entry": "795",
       "Species": "Suicune",
-      "Type": "water,ice",
+      "Type": "water",
       "Instance": "4",
       "Nature": "Modest",
       "Item": "BrightPowder",
@@ -14317,7 +14317,7 @@
     {
       "Entry": "796",
       "Species": "Regirock",
-      "Type": "rock,normal",
+      "Type": "rock",
       "Instance": "4",
       "Nature": "Careful",
       "Item": "Leftovers",
@@ -14335,7 +14335,7 @@
     {
       "Entry": "797",
       "Species": "Regice",
-      "Type": "ice,normal",
+      "Type": "ice",
       "Instance": "4",
       "Nature": "Bold",
       "Item": "Leftovers",
@@ -14353,7 +14353,7 @@
     {
       "Entry": "798",
       "Species": "Registeel",
-      "Type": "steel,normal",
+      "Type": "steel",
       "Instance": "4",
       "Nature": "Impish",
       "Item": "Leftovers",
@@ -14479,7 +14479,7 @@
     {
       "Entry": "805",
       "Species": "Ursaring",
-      "Type": "normal,fighting",
+      "Type": "normal",
       "Instance": "5",
       "Nature": "Adamant",
       "Item": "Choice Band",
@@ -14497,7 +14497,7 @@
     {
       "Entry": "806",
       "Species": "Ursaring",
-      "Type": "normal,fighting",
+      "Type": "normal",
       "Instance": "6",
       "Nature": "Adamant",
       "Item": "Focus Band",
@@ -14515,7 +14515,7 @@
     {
       "Entry": "807",
       "Species": "Ursaring",
-      "Type": "normal,fighting",
+      "Type": "normal",
       "Instance": "7",
       "Nature": "Docile",
       "Item": "Quick Claw",
@@ -14533,7 +14533,7 @@
     {
       "Entry": "808",
       "Species": "Ursaring",
-      "Type": "normal,fighting",
+      "Type": "normal",
       "Instance": "8",
       "Nature": "Docile",
       "Item": "Quick Claw",
@@ -14551,7 +14551,7 @@
     {
       "Entry": "809",
       "Species": "Machamp",
-      "Type": "fighting,rock",
+      "Type": "fighting",
       "Instance": "5",
       "Nature": "Adamant",
       "Item": "Scope Lens",
@@ -14569,7 +14569,7 @@
     {
       "Entry": "810",
       "Species": "Machamp",
-      "Type": "fighting,rock",
+      "Type": "fighting",
       "Instance": "6",
       "Nature": "Adamant",
       "Item": "Focus Band",
@@ -14587,7 +14587,7 @@
     {
       "Entry": "811",
       "Species": "Machamp",
-      "Type": "fighting,rock",
+      "Type": "fighting",
       "Instance": "7",
       "Nature": "Adamant",
       "Item": "BrightPowder",
@@ -14605,7 +14605,7 @@
     {
       "Entry": "812",
       "Species": "Machamp",
-      "Type": "fighting,rock",
+      "Type": "fighting",
       "Instance": "8",
       "Nature": "Adamant",
       "Item": "Focus Band",
@@ -15055,7 +15055,7 @@
     {
       "Entry": "837",
       "Species": "Regirock",
-      "Type": "rock,normal",
+      "Type": "rock",
       "Instance": "5",
       "Nature": "Adamant",
       "Item": "Quick Claw",
@@ -15073,7 +15073,7 @@
     {
       "Entry": "838",
       "Species": "Regirock",
-      "Type": "rock,normal",
+      "Type": "rock",
       "Instance": "6",
       "Nature": "Adamant",
       "Item": "BrightPowder",
@@ -15091,7 +15091,7 @@
     {
       "Entry": "839",
       "Species": "Regice",
-      "Type": "ice,normal",
+      "Type": "ice",
       "Instance": "5",
       "Nature": "Brave",
       "Item": "Leftovers",
@@ -15109,7 +15109,7 @@
     {
       "Entry": "840",
       "Species": "Regice",
-      "Type": "ice,normal",
+      "Type": "ice",
       "Instance": "6",
       "Nature": "Modest",
       "Item": "Chesto Berry",
@@ -15127,7 +15127,7 @@
     {
       "Entry": "841",
       "Species": "Registeel",
-      "Type": "steel,normal",
+      "Type": "steel",
       "Instance": "5",
       "Nature": "Adamant",
       "Item": "Leftovers",
@@ -15145,7 +15145,7 @@
     {
       "Entry": "842",
       "Species": "Registeel",
-      "Type": "steel,normal",
+      "Type": "steel",
       "Instance": "6",
       "Nature": "Adamant",
       "Item": "White Herb",
@@ -15775,7 +15775,7 @@
     {
       "Entry": "877",
       "Species": "Raikou",
-      "Type": "electric,psychic",
+      "Type": "electric",
       "Instance": "5",
       "Nature": "Modest",
       "Item": "BrightPowder",
@@ -15793,7 +15793,7 @@
     {
       "Entry": "878",
       "Species": "Raikou",
-      "Type": "electric,psychic",
+      "Type": "electric",
       "Instance": "6",
       "Nature": "Modest",
       "Item": "Chesto Berry",
@@ -15847,7 +15847,7 @@
     {
       "Entry": "881",
       "Species": "Suicune",
-      "Type": "water,ice",
+      "Type": "water",
       "Instance": "5",
       "Nature": "Modest",
       "Item": "Lum Berry",
@@ -15865,7 +15865,7 @@
     {
       "Entry": "882",
       "Species": "Suicune",
-      "Type": "water,ice",
+      "Type": "water",
       "Instance": "6",
       "Nature": "Modest",
       "Item": "Chesto Berry",

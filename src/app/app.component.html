@@ -9,11 +9,11 @@
             <button mat-raised-button color="primary" (click)="generateExcel()">GENERATE</button>
             <button mat-raised-button color="primary" (click)="nextBattle()">NEXT BATTLE</button>
             <mat-card-subtitle>Party</mat-card-subtitle>
-            <app-pokemon-name-selector (specieChanged)="party1 = $event"
+            <app-pokemon-name-selector [specie]="party1" (specieChanged)="party1 = $event"
                                        title="Party pokemon 1"></app-pokemon-name-selector>
-            <app-pokemon-name-selector (specieChanged)="party2 = $event"
+            <app-pokemon-name-selector [specie]="party2" (specieChanged)="party2 = $event"
                                        title="Party pokemon 2"></app-pokemon-name-selector>
-            <app-pokemon-name-selector (specieChanged)="party3 = $event"
+            <app-pokemon-name-selector [specie]="party3" (specieChanged)="party3 = $event"
                                        title="Party pokemon 3"></app-pokemon-name-selector>
           </div>
           <div class="row">
@@ -69,6 +69,7 @@
                 <mat-option [value]="BattleStyle.HighRiskHighReturn">High Risk High Return</mat-option>
                 <mat-option [value]="BattleStyle.Weakening">Weakening</mat-option>
                 <mat-option [value]="BattleStyle.ImpossibleToPredict">Impossible To Predict</mat-option>
+                <mat-option [value]="BattleStyle.Flexible">Flexible</mat-option>
               </mat-select>
             </mat-form-field>
           </div>
