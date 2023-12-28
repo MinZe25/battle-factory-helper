@@ -1,6 +1,12 @@
-# PokemonBattleFactoryApp
+# Battle Factory Helper
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
+
+## Battle Factory Buddy
+A website made by Dave Glorbus that served as inspiration for the UI.
+https://battlefactorybuddy.azurewebsites.net
+
+
 
 ## Development server
 
