@@ -84,7 +84,6 @@ export class AppComponent {
     const enemySet = new PokemonSet();
     const partySet = new PokemonSet();
     this.pokemon = this.pokemonService.getPokemonFromGroup(this.level, this.round);
-    console.log("length", this.pokemon.length)
     if (!!this.enemy1.specie) enemySet.pokemons.push(this.enemy1);
     if (!!this.enemy2.specie) enemySet.pokemons.push(this.enemy2);
     if (!!this.enemy3.specie) enemySet.pokemons.push(this.enemy3);

@@ -81,7 +81,6 @@ export class BattleFactoryGen3Algorithm implements Algorithm {
   private generatePokemonSets(possiblePokemon: Pokemon[], enemy: PokemonSet, type: PokemonType, battleStyle: number, currentSet: Pokemon[], result: PokemonSet[]): void {
     //TODO: Optimize this to validate every time, not only when it gets to three
     if (currentSet.length === 3) {
-      console.log("set is 3")
       // Check if the current set meets the requirements
       if (this.isValidSet(currentSet, enemy, type, battleStyle)) {
         const newPokemonSet = new PokemonSet();
